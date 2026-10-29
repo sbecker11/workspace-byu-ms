@@ -2,8 +2,6 @@
 
 Research by Shawn C. Becker with William A. Barrett, Department of Computer Science, Brigham Young University, 1989–1990. Two papers from that work are in this repository. The first measures anatomy directly on rendered 3-D surfaces. The second segments myocardial tissue in cine CT.
 
-**Skills:** 3D Medical Imaging · Scientific Visualization · Surface Rendering · Volume Visualization · Depth Buffers · Z-Buffer Compositing · Interactive Morphometrics · Surface Extraction · Sub-voxel Localization · Linear Probes · Sectioning
-
 Source: [scholarsarchive.byu.edu/facpub/733](https://scholarsarchive.byu.edu/facpub/733)
 
 ## Surface images
@@ -42,12 +40,31 @@ Labeling is Bayesian. The class probability is the voxel's intensity given its l
 
 The implementation is a four-part pipeline: manual segmentation, training-set construction, prior calculation, and automated segmentation. Manual labels are painted into an overlay buffer. Each new segmentation can be folded back into the training set. Interaction parameters stay fixed, and the training set is left extensible. Abnormal cases, including aneurysms, were used to judge accuracy and how many iterations were required. The segmentation runs on relatively low-cost hardware. Uses named for the result are wall-thickening measurement, myocardial perfusion estimation, and 3-D/4-D display of the myocardial surface.
 
-**Skills:** Cine CT · Myocardial Segmentation · Natural Tissue Contrast · Contrast-enhanced Imaging · Landmark Alignment · CT Density Normalization · Spatial Scale Normalization · Deterministic Relaxation · Bayesian Labeling · Position and Density Priors · Neighborhood Interaction · Six-class Tissue Labeling · Iterative Relaxation · Training-set Construction · Incremental Learning
-
 ## Papers
 
-- Shawn C. Becker and William A. Barrett, *Interactive Morphometrics from Three-Dimensional Surface Images*, IEEE Proceedings of The First Conference on Visualization in Biomedical Computing, pp. 418–425, May 1990. A local copy is `interactive-morphometrics.pdf`. [ScholarsArchive](https://scholarsarchive.byu.edu/facpub/733).
-- Jerome A. Broekhuijsen, Shawn C. Becker, and William A. Barrett, *Probabilistic Segmentation of Myocardial Tissue by Deterministic Relaxation*, IEEE Computers in Cardiology, Jerusalem, September 1989. The local file `myocardial-segmentation-scholarsarchive.pdf` is the ScholarsArchive record, not the article. [ScholarsArchive](https://scholarsarchive.byu.edu/facpub/738).
+Shawn C. Becker and William A. Barrett, *Interactive Morphometrics from Three-Dimensional Surface Images*, IEEE Proceedings of The First Conference on Visualization in Biomedical Computing, pp. 418–425, May 1990. A local copy is [`interactive-morphometrics.pdf`](interactive-morphometrics.pdf). The first page of that file is the BYU ScholarsArchive record; the IEEE article follows in the same PDF. [ScholarsArchive](https://scholarsarchive.byu.edu/facpub/733).
+
+Jerome A. Broekhuijsen, Shawn C. Becker, and William A. Barrett, *Probabilistic Segmentation of Myocardial Tissue by Deterministic Relaxation*, IEEE Computers in Cardiology, Jerusalem, September 1989. The local file [`myocardial-segmentation-scholarsarchive.pdf`](myocardial-segmentation-scholarsarchive.pdf) is the ScholarsArchive record, not the article. [ScholarsArchive](https://scholarsarchive.byu.edu/facpub/738).
+
+## Skills
+
+Interactive morphometrics on rendered 3-D surfaces:
+
+3D Surface Images · 3D Medical Imaging · Scientific Visualization · Surface Rendering · Volume Visualization · Surface Extraction · Density Gradient Shading · Depth Buffers · Z-Buffer Compositing · Interactive Morphometrics · Interactive Points · Linear Probes · Sectioning · Sub-voxel Localization
+
+Myocardial segmentation in cine CT:
+
+Cine CT · Myocardial Segmentation · Natural Tissue Contrast · Contrast-enhanced Imaging · Landmark Alignment · CT Density Normalization · Spatial Scale Normalization · Deterministic Relaxation · Bayesian Labeling · Position and Density Priors · Neighborhood Interaction · Six-class Tissue Labeling · Iterative Relaxation · Training-set Construction · Incremental Learning
+
+## Paper snapshots
+
+[![ScholarsArchive cover for Interactive Morphometrics from Three-Dimensional Surface Images](media/interactive-morphometrics-page1.png)](interactive-morphometrics.pdf)
+
+*Interactive Morphometrics from Three-Dimensional Surface Images*, Shawn C. Becker and William A. Barrett, 1990. The pictured page is the ScholarsArchive cover that opens the article.
+
+[![ScholarsArchive record for Probabilistic Segmentation of Myocardial Tissue by Deterministic Relaxation](media/myocardial-segmentation-scholarsarchive-page1.png)](myocardial-segmentation-scholarsarchive.pdf)
+
+ScholarsArchive record for *Probabilistic Segmentation of Myocardial Tissue by Deterministic Relaxation*, Jerome A. Broekhuijsen, Shawn C. Becker, and William A. Barrett, 1989. The local PDF is the archive cover sheet.
 
 ## Keywords
 

@@ -14,7 +14,7 @@ Two medical imaging papers by Shawn C. Becker with William A. Barrett and Jerome
 
 ## Part 1 — Interactive morphometrics from three-dimensional surface images
 
-<img src="media/figures/surface-gradient.png" width="50%" alt="Figure 1. Rendered skull surface shaded by the density gradient."><img src="media/figures/surface-probe.png" width="50%" alt="Figure 2. Two surface points and a probe measuring 14.1 cm on a vertebra.">
+<img src="media/figures/surface-gradient.png" height="260" alt="Figure 1. Rendered skull surface shaded by the density gradient."> <img src="media/figures/surface-probe.png" height="260" alt="Figure 2. Two surface points and a probe measuring 14.1 cm on a vertebra.">
 
 *Figure 1: a skull surface image with density-gradient shading. Figure 2: two surface points and a linear probe measuring 14.1 cm on a vertebra.*
 

@@ -32,9 +32,9 @@ Follow-on journal article: Shawn Becker, William A. Barrett, and Dan R. Olsen, *
 
 ## Part 2 — Probabilistic segmentation of myocardial tissue by deterministic relaxation
 
-![Figure 6. Initial position probabilities for myocardial tissue and blood pool from the extended training set.](media/figures/myocardial-figure-6-training-probabilities.png)
+![Figure 6. Initial position probabilities for myocardial tissue and blood pool from the extended training set.](media/myocardial-training-probabilities.png)
 
-![Figure 7. Myocardial tissue probabilities over the first three iterations of segmentation, on an image outside the training set.](media/figures/myocardial-figure-7-iterations.png)
+![Figure 7. Myocardial tissue probabilities over the first three iterations of segmentation, on an image outside the training set.](media/myocardial-iterations.png)
 
 *Figure 6: initial position probabilities for myocardial tissue (left) and blood pool (right) from the extended training set. Figure 7: myocardial tissue probabilities over the first three iterations on an image outside the training set; the myocardium sharpens, especially in the septal and posterior walls.*
 
